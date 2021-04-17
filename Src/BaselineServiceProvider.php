@@ -2,6 +2,7 @@
 
 namespace Baseline;
 
+use Baseline\Console\Commands\ResetApp;
 use Illuminate\Support\ServiceProvider;
 
 class BaselineServiceProvider extends ServiceProvider
@@ -23,6 +24,10 @@ class BaselineServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                ResetApp::class
+            ]);
+        }
     }
 }
