@@ -1,6 +1,7 @@
 {
     "name": "jakesuellentrop/baseline",
     "description": "Laravel tools for maintaining your sanity",
+    "license": "MIT",
     "type": "library",
     "require": {
         "illuminate/support": "^8.37",
