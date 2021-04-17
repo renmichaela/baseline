@@ -1,0 +1,15 @@
+{
+    "name": "jakesuellentrop/baseline",
+    "description": "Laravel tools for maintaining your sanity",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^8.37",
+        "illuminate/console": "^8.37"
+    },
+    "authors": [
+        {
+            "name": "Jake Suellentrop",
+            "email": "email@jakesuellentrop.com"
+        }
+    ]
+}
