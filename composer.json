@@ -11,5 +11,17 @@
             "name": "Jake Suellentrop",
             "email": "email@jakesuellentrop.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Baseline\\": "Src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Baseline\\BaselineServiceProvider"
+            ]
+        }
+    }
 }
